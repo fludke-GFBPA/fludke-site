@@ -850,6 +850,20 @@ footer{padding:44px 0; border-top:1px solid var(--line); position:relative;}
   .line{overflow:visible !important;}
   .aura span{animation:none;}
 }
+
+/* --- lista de artigos na home --- */
+.post-list{display:flex; flex-direction:column; gap:1px; background:var(--line);
+  border:1px solid var(--line); border-radius:var(--r); overflow:hidden;}
+.post-item{display:block; text-decoration:none; background:var(--panel);
+  padding:clamp(22px,3vw,30px); transition:background .3s var(--ease);}
+.post-item:hover{background:var(--panel-3);}
+.post-item .post-date{font-family:'IBM Plex Mono',monospace; font-size:.72rem;
+  letter-spacing:.09em; text-transform:uppercase; color:var(--gold);}
+.post-item h3{font-family:'Fraunces',serif; font-weight:600;
+  font-size:clamp(1.12rem,2vw,1.4rem); color:var(--paper); margin:8px 0; letter-spacing:-.01em;}
+.post-item p{color:var(--muted); margin:0; font-size:.98rem; line-height:1.6;}
+.post-item .go{color:var(--gold); font-family:'IBM Plex Mono',monospace; font-size:.76rem;
+  letter-spacing:.08em; text-transform:uppercase; display:inline-block; margin-top:14px;}
 </style>
 </head>
 <body>
@@ -866,6 +880,7 @@ footer{padding:44px 0; border-top:1px solid var(--line); position:relative;}
       <a href="#fazemos">O que Fazemos</a>
       <a href="#metodologia">Metodologia</a>
       <a href="#diferenciais">Diferenciais</a>
+      <a href="artigos.html">Artigos</a>
       <a href="#faq">Dúvidas</a>
     </nav>
     <a href="#contato" class="nav-cta">Fale com o especialista</a>
@@ -880,8 +895,9 @@ footer{padding:44px 0; border-top:1px solid var(--line); position:relative;}
   <a href="#fazemos"      style="--i:1"><span>02</span>O que Fazemos</a>
   <a href="#metodologia"  style="--i:2"><span>03</span>Metodologia</a>
   <a href="#diferenciais" style="--i:3"><span>04</span>Diferenciais</a>
-  <a href="#faq"          style="--i:4"><span>05</span>Dúvidas</a>
-  <a href="#contato"      style="--i:5"><span>06</span>Contato</a>
+  <a href="artigos.html"  style="--i:4"><span>05</span>Artigos</a>
+  <a href="#faq"          style="--i:5"><span>06</span>Dúvidas</a>
+  <a href="#contato"      style="--i:6"><span>07</span>Contato</a>
 </nav>
 
 <main id="top">
@@ -1186,6 +1202,28 @@ footer{padding:44px 0; border-top:1px solid var(--line); position:relative;}
           <div class="faq-body"><div><p>Isso não é impedimento, é justamente o ponto de partida do trabalho. A maioria dos clientes chega assim. Se estivesse tudo organizado, você provavelmente não precisaria de mim.</p></div></div>
         </details>
       </div>
+    </div>
+  </section>
+
+  <!-- ================= ARTIGOS ================= -->
+  <section id="artigos">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker" data-reveal>Artigos</span>
+        <h2 data-reveal style="--d:.06s">Leitura para quem decide.</h2>
+        <p data-reveal style="--d:.12s">Análises sobre gestão, finanças, controladoria e governança, publicadas semanalmente.</p>
+      </div>
+      <div class="post-list" data-reveal style="--d:.16s">
+        <a class="post-item" href="artigos/split-payment.html">
+          <span class="post-date">05 de agosto de 2026</span>
+          <h3>Sua empresa vai ter que repensar o fluxo de caixa do seu negócio.</h3>
+          <p>A partir de 2027, o tributo passa a ser segregado no momento do pagamento. Quem usava esse intervalo como capital de giro vai sentir a diferença.</p>
+          <span class="go">Ler artigo →</span>
+        </a>
+      </div>
+      <p style="margin-top:26px;" data-reveal style="--d:.2s">
+        <a href="artigos.html" class="linkedin">Ver todos os artigos ↗</a>
+      </p>
     </div>
   </section>
 
