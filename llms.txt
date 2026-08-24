@@ -1,0 +1,15 @@
+# Franco Lüdke, Consultoria de Gestão Empresarial
+
+> Consultoria em gestão empresarial, com foco em finanças, controladoria,
+> governança e o impacto da Reforma Tributária no caixa das empresas.
+> Atendimento em Porto Alegre e região.
+
+## Páginas principais
+- [Início](https://fludke.com.br/): apresentação, metodologia, diferenciais e contato
+- [Artigos](https://fludke.com.br/artigos.html): análises sobre gestão, finanças e Reforma Tributária
+
+## Artigos
+- [Sua empresa vai ter que repensar o fluxo de caixa do seu negócio](https://fludke.com.br/artigos/split-payment.html): introdução ao split payment e seu efeito no capital de giro
+- [A Reforma Tributária não cai só no fiscal](https://fludke.com.br/artigos/calendario-reforma-tributaria.html): calendário completo da reforma, por área responsável dentro da empresa
+- [Split payment: o que muda quando você paga uma nota](https://fludke.com.br/artigos/split-payment-apuracao.html): como funciona o mecanismo de recolhimento automático
+- [Venda a prazo: por que a conta pode chegar antes do dinheiro](https://fludke.com.br/artigos/venda-a-prazo.html): o descasamento entre o vencimento do imposto e o recebimento da venda a prazo
