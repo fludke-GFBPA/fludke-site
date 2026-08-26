@@ -14,7 +14,7 @@
 <meta property="og:image" content="https://fludke.com.br/img/og-venda-a-prazo.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-P26-08-25">
+<meta property="article:published_time" content="2026-08-25">
 <meta property="article:author" content="Franco Lüdke">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://fludke.com.br/img/og-venda-a-prazo.jpg">
@@ -822,6 +822,10 @@ footer{padding:44px 0; border-top:1px solid var(--line); position:relative;}
 .foot a{transition:color .3s;}
 .foot a:hover{color:var(--gold);}
 .foot .sep{opacity:.4; margin:0 8px;}
+.foot-social{display:inline-flex; gap:12px; vertical-align:middle; margin-right:2px;}
+.foot-social a{color:var(--muted-2); transition:color .3s; display:inline-flex;}
+.foot-social a:hover{color:var(--gold);}
+.foot-social svg{width:18px; height:18px; display:block;}
 
 /* ============================================================
    WHATSAPP FLOAT
@@ -1123,7 +1127,14 @@ html{scroll-padding-top:92px;}
   <div class="wrap foot">
     <p>© <span id="year">2026</span> Consultoria de Gestão Empresarial, por Franco Lüdke</p>
     <p>
-      <a href="https://www.linkedin.com/in/franco-ludke/" target="_blank" rel="noopener">LinkedIn</a>
+      <span class="foot-social">
+        <a href="https://www.linkedin.com/in/franco-ludke/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5M3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.95 1.32-1.95 2.7V21h-4z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/franco.ludke/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </span>
       <span class="sep" aria-hidden="true">·</span>Porto Alegre, RS
     </p>
   </div>
